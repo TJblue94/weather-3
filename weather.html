@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+  <form id="city-form" class="pure-form pure-form-stacked">
+    <fieldset>
+        <legend>Search 4 a city</legend>
+        <label for="city-input">City</label>
+    <div class="input">
+        <input type="text" class="inputValue" id="city-input" placeholder="Cities" />
+         <button type="search" id="find-city" value="City-search" class="pure-button pure-button-primary">Search</button>
+    </fieldset>
+</form>
+
+<div id="city-view"></div>
+<div class="img"></div>
+<div class="city"></div>
+  <div class="wind"></div>
+  <div class="humidity"></div>
+  <div class="tempF"></div>
+  <div class="UVindex"></div>
+    <div class="FiveDay"></div>
+    <script src="weather.js"></script>
+</body>
+</html>
